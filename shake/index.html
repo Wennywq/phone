@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="Cache-Control" CONTENT="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<!--预加载-->
+		<div id="loading-mask">
+			<div class="load4" id="loading">
+				<div class="loader">Loading...</div>
+			</div>
+		</div>
+		<!--预加载-->
+		<!--音乐-->
+		<audio src="images/music.mp3" controls="controls" loop="loop"  preload id="music1" autoplay="autoplay" hidden></audio>
+		<div class="music-icon rotate"></div>
+		<!--音乐-->
+		<div class="bg"><img src="images/bg.jpg" /></div>
+		<img src="images/drop-snow1.png" class="drop-snow1 abs" />
+		<img src="images/drop-snow2.png" class="drop-snow2 abs" />
+		<img src="images/drop-snow3.png" class="drop-snow4 abs" />
+		<img src="images/drop-snow3.png" class="drop-snow3 abs" />
+		<div class="index-top">
+			<img src="images/logo.png" class="logo" />
+		</div>
+		<div class="title rel">
+			<img src="images/hat.png" class="hat abs" />
+			<img src="images/new-title.png" />
+		</div>
+		<center class="f-white f-bold title-time">活动时间：2015.12.25 18:00-19:00</center>
+		<div class="box rel">
+			<img src="images/box-bg.png" class="box-bg abs" />
+			<img src="images/hand.png" class="hand abs" />
+			<img src="images/snow-piece.png" class="snow1 abs rotate5"/>
+			<img src="images/snow-piece.png" class="snow2 abs rotate5"/>
+			<img src="images/snow-piece.png" class="snow3 abs rotate5"/>
+		</div>
+		<center class="chance-num rel f-white">您还有 <span class="f-red f-16">2</span> 次抽奖机会</center>
+		<img src="images/shake-txt.png" class="shake-txt" />
+		<img src="images/page1-bottom.png" class="fix-bottom" />
+		<!--遮罩-->
+		<div class="mask"></div>
+		<!--成功弹窗-->
+		<div class="pop success-pop" style="display: block;">
+			<div class="p10">
+				<center class="pop-txt">恭喜您中奖啦</center>
+				<center class="pop-txt">10元现金红包</center>
+				<img src="images/face1.png" class="twocode" />
+				<center class="btn1 close-btn1">再摇一次</center>
+				<center class="btn1 twocode-btn" >我的礼包</center>
+			</div>
+		</div>
+		<!--二维码弹窗-->
+		<div class="pop twocode-pop" >
+			<div class="p10">
+				<img src="images/face1.png" class="twocode" />
+				<center class="yellow-txt">礼券已经自动存入
+				<br> 公众号-我的礼品菜单中了<br>
+					去领奖吧！
+				</center>
+				<center class="btn1 close-btn1">再摇一次</center>
+			</div>
+		</div>
+		<!--活动还未开始弹窗-->
+		<div class="pop nostart-pop">
+			<div class="p10">
+				<center class="pop-txt">活动还未开始，敬请期待...</center>
+				<img src="images/face1.png" class="twocode" />
+				<img src="images/btn1.png" class="btn1" />
+			</div>
+		</div>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobile.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
